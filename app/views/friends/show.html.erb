@@ -1,0 +1,17 @@
+<%= image_tag @friend.picture %>
+<p><%= @friend.name %></p>
+
+<p>
+	<b>Likes in common with me:</b>
+	<%= list_same_likes %>
+</p>
+
+<p>
+	<b>Your likes:</b>
+	<%= list_my_likes %>
+</p>
+
+<p>
+	<b>Things that <%= @friend.name %> likes:</b>
+	<%= list_friends_likes %>
+</p>

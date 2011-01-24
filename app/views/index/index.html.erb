@@ -1,0 +1,9 @@
+<%= render :partial => '/login/login_button' %>
+
+<p>
+	<table>
+		<tr>
+			<%= render :partial => 'friend', :collection => @me.friends %>
+		</tr>
+	</table>
+</p>

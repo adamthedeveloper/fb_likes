@@ -1,0 +1,12 @@
+development:
+  app_id: 176577175713561
+  secret_key: 0305d1016813ac8fdcc26392ccfd9cf7
+  url: http://evening-ice-760.heroku.com/
+test:
+  app_id: 176577175713561
+  secret_key: 0305d1016813ac8fdcc26392ccfd9cf7
+  url: http://evening-ice-760.heroku.com/
+production:
+  app_id: 176577175713561
+  secret_key: 0305d1016813ac8fdcc26392ccfd9cf7
+  url: http://evening-ice-760.heroku.com/
